@@ -1,0 +1,10 @@
+# KUIS-1
+
+public class segitigaHitung {
+    double luas2;
+    public double lsegitiga (double tinggi, double alas){
+        luas2 = (tinggi * alas)/2;
+        return luas2;
+    }
+    
+}
