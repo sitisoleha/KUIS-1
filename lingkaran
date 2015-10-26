@@ -1,0 +1,8 @@
+# KUIS-1
+public class luasLingkaranPerhitungan {
+    double luas;
+    public double lLingkaran(double jari2){
+        luas=3.14*jari2*jari2;
+        return luas;
+    }
+}
