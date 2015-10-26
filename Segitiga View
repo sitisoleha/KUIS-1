@@ -1,0 +1,26 @@
+# KUIS-1
+package pertemuan4.view;
+
+import pertemuan4.segitigaHitung;
+
+/**
+ *
+ * @author User
+ */
+public class segitiga extends javax.swing.JPanel {
+   
+    /**
+     * Creates new form segitiga
+     */
+    public segitiga() {
+        initComponents();
+    }
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+          segitigaHitung a = new segitigaHitung();
+    int alas = Integer.parseInt(jTextField1.getText());
+    int tinggi = Integer.parseInt(jTextField2.getText());
+    double hasil = a.lsegitiga(alas, tinggi);
+    
+    jLabel3.setText("Hasil ="+hasil);
+        // TODO add your handling code here:
+    }
