@@ -1,0 +1,11 @@
+# KUIS-1
+public class persegiPanjangHitung {
+
+    
+    int luas;
+    public int lPersegiPanjang(int panjang, int lebar){
+        luas = panjang * lebar;
+        return luas;
+    }
+    
+}
