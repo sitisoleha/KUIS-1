@@ -1,0 +1,28 @@
+# KUIS-1
+package pertemuan4.view;
+
+import pertemuan4.persegiPanjangHitung;
+
+/**
+ *
+ * @author User
+ */
+public class persegiPanjang extends javax.swing.JPanel {
+   
+   
+    /**
+     * Creates new form persegiPanjang
+     */
+    public persegiPanjang() {
+        initComponents();
+    }
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+         persegiPanjangHitung a = new persegiPanjangHitung();
+        int panjang = Integer.parseInt(jTextField1.getText());
+        int lebar = Integer.parseInt(jTextField2.getText());
+        
+        int hasil = a.lPersegiPanjang(panjang, lebar);
+        
+        jLabelHasil.setText("Hasil = "+hasil);
+        // TODO add your handling code here:
+    } 
