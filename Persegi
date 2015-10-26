@@ -1,0 +1,9 @@
+# KUIS-1
+public class persegiHitung {
+    int luas3;
+    public int lPersegi(int sisi){
+        luas3 = 2 * sisi;
+        return luas3;
+    }
+    
+}
