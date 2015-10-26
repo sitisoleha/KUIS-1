@@ -1,0 +1,19 @@
+# KUIS-1
+
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        luasLingkaranPerhitungan a = new luasLingkaranPerhitungan();
+     double jari2 = Double.parseDouble(jTextField1.getText());
+     double hasil = a.lLingkaran(jari2);
+     
+     jLabel2.setText("Hasil = "+hasil);
+        // TODO add your handling code here:
+    }
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+      persegiHitung a = new persegiHitung();
+    int sisi = Integer.parseInt(jTextField1.getText());
+    int hasil = a.lPersegi(sisi);
+    
+    jLabel2.setText("Hasil ="+hasil);
+// TODO add your handling code here:
+    }
+    
