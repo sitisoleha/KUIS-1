@@ -1,0 +1,29 @@
+# KUIS-1
+
+package pertemuan4.view;
+
+import pertemuan4.luasLingkaranPerhitungan;
+
+/**
+ *
+ * @author User
+ */
+public class lingkaran extends javax.swing.JPanel {
+   
+  
+ 
+
+    /**
+     * Creates new form lingkaran
+     */
+    public lingkaran() {
+        initComponents();
+    }
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        luasLingkaranPerhitungan a = new luasLingkaranPerhitungan();
+     double jari2 = Double.parseDouble(jTextField1.getText());
+     double hasil = a.lLingkaran(jari2);
+     
+     jLabel2.setText("Hasil = "+hasil);
+        // TODO add your handling code here:
+    }
